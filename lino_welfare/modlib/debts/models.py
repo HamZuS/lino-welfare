@@ -23,7 +23,7 @@ from lino.api import dd, rt, _, pgettext
 from lino.utils.xmlgen.html import E
 from lino import mixins
 
-from lino.modlib.accounts.choicelists import AccountTypes, AccountCharts
+from lino_cosi.lib.accounts.choicelists import AccountTypes, AccountCharts
 from lino.modlib.excerpts.mixins import Certifiable
 from lino.modlib.users.mixins import UserAuthored
 

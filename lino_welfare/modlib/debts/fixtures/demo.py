@@ -12,7 +12,7 @@ from django.utils.translation import ugettext as _
 from lino.utils import Cycler
 from lino.api import rt
 
-from lino.modlib.accounts.choicelists import AccountTypes
+from lino_cosi.lib.accounts.choicelists import AccountTypes
 
 from lino_welfare.modlib.debts.roles import DebtsUser
 

@@ -13,7 +13,7 @@ Lino Welfare extension of :mod:`lino.modlib.ledger`
 
 """
 
-from lino.modlib.ledger import Plugin
+from lino_cosi.lib.ledger import Plugin
 
 
 # class Plugin(Plugin):

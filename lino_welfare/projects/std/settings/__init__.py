@@ -114,7 +114,7 @@ class Site(Site):
         yield 'lino.modlib.extensible'
         yield 'lino_welfare.modlib.cal'
         yield 'lino_welfare.modlib.reception'
-        yield 'lino.modlib.accounts'
+        yield 'lino_cosi.lib.accounts'
         yield 'lino_welfare.modlib.badges'
         yield 'lino_welfare.modlib.sepa'
 
@@ -133,10 +133,10 @@ class Site(Site):
         yield 'lino_welfare.modlib.ledger'
         # yield 'lino_welfare.modlib.finan'
         # yield 'lino.modlib.ledger'
-        yield 'lino.modlib.vatless'
+        yield 'lino_cosi.lib.vatless'
         if False:  # not sure whether they make sense
             yield 'lino_welfare.modlib.client_vouchers'
-        yield 'lino.modlib.finan'
+        yield 'lino_cosi.lib.finan'
 
         yield 'lino_welfare.projects.chatelet.modlib.cv'
         yield 'lino_welfare.modlib.integ'
